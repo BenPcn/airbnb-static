@@ -1,0 +1,10 @@
+<ul class="list-inline text-center padded">
+  <% data.buddies.each do |buddie| %>
+    <li>
+      <%= image_tag "#{buddie.name}.png", class: "img-circle avatar-big" %>
+      <h3><%= buddie.name.capitalize %></h3>
+      <p><%= buddie.role %></p>
+    </li>
+  <% end %>
+</ul>
+

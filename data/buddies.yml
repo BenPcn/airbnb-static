@@ -1,0 +1,12 @@
+- name: vincent
+  image: vincent.png
+  role: Buddie
+- name: benjamin
+  image: benjamin.png
+  role: Buddie
+- name: anne
+  image: anne.png
+  role: Teacher
+- name: jean
+  image: jean.paddin
+  role: Ami
